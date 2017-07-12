@@ -1,4 +1,4 @@
-
+require("babel-register");
 
 var express = require('express'),
   config = require('./config/config'),
