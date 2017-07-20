@@ -1,4 +1,5 @@
 require("babel-register");
+require('babel-polyfill');
 
 var express = require('express'),
   config = require('./config/config'),
